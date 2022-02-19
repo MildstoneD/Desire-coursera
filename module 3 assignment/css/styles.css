@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#navigate {
+    background-color: #a19797;
+    border-radius: 0;
+    border: 0;
+    margin-top: 0;
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1b1a1a;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+}
+
+#nav-collapse {
+    font-size: 20px;
+}
+
+#nav-collapse li a {
+    color: black;
+}
+
+#nav-collapse>hr {
+    width: 60%;
+    margin: auto;
+    color: black;
+}
+
+#text-area {
+    background-color: #a19797;
+    color: black;
+}
