@@ -166,18 +166,15 @@ header {
 @media (min-width:992px) and (max-width: 1199px) {
     header {
         background: rgb(0, 0, 0, 0.8);
-        background: url('./images/pexels-smallest.jpg');
-        background-size: cover;
+        background: url('./images/pexels-1200.jpg') no-repeat;
         background-position: center;
-        height: 768px;
     }
 }
 
 @media (min-width:768px) and (max-width: 991px) {
     header {
         background: rgb(0, 0, 0, 0.8);
-        background: url('./images/pexels-smallest.jpg') no-repeat;
-        background-size: cover;
+        background: url('./images/pexels-small.jpg') no-repeat;
         background-position: center;
     }
     .hamburger {
