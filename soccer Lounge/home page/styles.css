@@ -163,7 +163,7 @@ header {
 
 /* media queries for responsive css */
 
-/* @media (min-width:992px) and (max-width: 1199px) {
+@media (min-width:992px) and (max-width: 1199px) {
     header {
         background: rgb(0, 0, 0, 0.8);
         background: url('./images/pexels-1200.jpg') no-repeat;
@@ -214,4 +214,4 @@ header {
         padding: 10px;
     }
 }
- */
+
