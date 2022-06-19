@@ -167,7 +167,6 @@ header {
     header {
         background: rgb(0, 0, 0, 0.8);
         background: url('./images/pexels-1200.jpg') no-repeat;
-        background-position: center;
     }
 }
 
@@ -175,21 +174,43 @@ header {
     header {
         background: rgb(0, 0, 0, 0.8);
         background: url('./images/pexels-small.jpg') no-repeat;
-        background-position: center;
     }
     .hamburger {
         display: block;
     }
     .mainav-links {
         display: none;
+    }
+    .news,
+    .match-report {
+        width: 100%;
+        background-color: whitesmoke;
+        text-align: center;
+        margin: 20px 5%;
+        box-shadow: 1px 1px 8px 1px rgb(145, 144, 144);
+        padding: 10px;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
+    header {
+        background: rgb(0, 0, 0, 0.8);
+        background: url('./images/pexels-smallest.jpg') no-repeat;
+        height: 768px;
+    }
     .hamburger {
         display: block;
     }
     .mainav-links {
         display: none;
+    }
+    .news,
+    .match-report {
+        width: 100%;
+        background-color: whitesmoke;
+        text-align: center;
+        margin: 5px 5%;
+        box-shadow: 1px 1px 8px 1px rgb(145, 144, 144);
+        padding: 10px;
     }
 }
