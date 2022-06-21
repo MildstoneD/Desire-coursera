@@ -9,7 +9,7 @@
 
 header {
     background: rgb(0, 0, 0, 0.8);
-    background: url('./images/pexels-pixabay-209841.jpg');
+    background: url('./images/pexels-1200.jpg');
     background-size: cover;
     background-position: center;
     height: 768px;
@@ -105,9 +105,14 @@ header {
 .hamburger {
     float: right;
     padding: 10px;
+    margin: 0 20px;
+    background-color: transparent;
+    color: #fbc02d;
     border: 1px solid #fbc02d;
     border-radius: 5px;
     text-align: center;
+    position: relative;
+    top: 0;
     display: none;
 }
 
@@ -163,12 +168,42 @@ header {
 
 /* media queries for responsive css */
 
+
+/* for medium screens */
+
 @media (min-width:992px) and (max-width: 1199px) {
     header {
         background: rgb(0, 0, 0, 0.8);
-        background: url('./images/pexels-1200.jpg') no-repeat;
+        background: url('./images/pexels-small.jpg') no-repeat;
+        background-size: cover;
+    }
+    /* info navbar styling for medium screen */
+    .infonav {
+        padding: 3px 30px 5px 30px;
+        background-color: #fbc02d;
+    }
+    /* main navbar styling for medium screen */
+    .main-nav {
+        color: #fbc02d;
+        padding: 10px 25px 20px 30px;
+        width: 100%;
+    }
+    .mainav-title {
+        float: left;
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .mainav-links li a {
+        text-decoration: none;
+        color: white;
+        padding: 0 5px;
+        font-size: 15px;
+        font-weight: bold;
     }
 }
+
+
+/* for small screens */
 
 @media (min-width:768px) and (max-width: 991px) {
     header {
@@ -178,9 +213,11 @@ header {
     .hamburger {
         display: block;
     }
+    /* styling the main navbar for small screens */
     .mainav-links {
         display: none;
     }
+    /* body styling for small screens */
     .news,
     .match-report {
         width: 100%;
@@ -191,6 +228,9 @@ header {
         padding: 10px;
     }
 }
+
+
+/* for very small screens */
 
 @media (max-width:767px) {
     header {
@@ -214,5 +254,3 @@ header {
         padding: 10px;
     }
 }
-
-
