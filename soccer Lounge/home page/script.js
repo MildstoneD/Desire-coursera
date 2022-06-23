@@ -1,7 +1,7 @@
 var i = 0;
-var images = ['./images/pexels-1200.jpg',
+var images = ['./images/pexels-pixabay-209841.jpg',
     './images/pexels-gonzalo-acuña-10923063.jpg',
-    './images/pexels-tom-1200.jpg'
+    './images/pexels-tom-fisk-large.jpg'
 ];
 var slideTimer = 5000;
 
