@@ -8,11 +8,14 @@
 /* stylng the header container */
 
 header {
-    background: rgb(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0);
+}
+
+.img-slider {
     background: url('./images/pexels-pixabay-209841.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    height: 768px;
+    height: 100vh;
     transition: ease-in 1.0s;
 }
 
@@ -23,13 +26,14 @@ header {
 /* starting with the info navbar */
 
 .infonav {
-    padding: 3px 40px 5px 40px;
+    padding: .5% 3% .5% 3%;
     background-color: #fbc02d;
 }
 
 .infonav p {
     float: left;
-    line-height: 20px;
+    line-height: 100%;
+    font-weight: bold;
 }
 
 .infonav .fa-envelope {
@@ -175,8 +179,13 @@ header {
 @media (min-width:992px) and (max-width: 1199px) {
     header {
         background: rgb(0, 0, 0, 0.8);
+    }
+    .img-slider {
         background: url('./images/pexels-small.jpg') no-repeat;
         background-size: cover;
+        background-position: center;
+        height: 70vh;
+        transition: ease-in 1.0s;
     }
     /* info navbar styling for medium screen */
     .infonav {
@@ -208,15 +217,61 @@ header {
 
 @media (min-width:768px) and (max-width: 991px) {
     header {
-        background: rgb(0, 0, 0, 0.8);
+        background: rgb(0, 0, 0);
+    }
+    .img-slider {
         background: url('./images/pexels-small.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        transition: ease-in 1.0s;
+    }
+    /* styling responsive navbar button */
+    .cont-btn {
+        position: relative;
+        bottom: 25px;
     }
     .hamburger {
         display: block;
+        float: right;
+        padding: 10px;
+        margin: 0 20px;
+        background-color: transparent;
+        color: #fbc02d;
+        border: 3px solid #fbc02d;
+        border-radius: 5px;
+        text-align: center;
+        height: 50px;
+        width: 50px;
     }
-    /* styling the main navbar for small screens */
+    .hamburger:hover {
+        background-color: #fbc02d;
+        color: black;
+    }
+    /* styling the main and info navbar for small screens */
     .mainav-links {
         display: none;
+    }
+    .infonav {
+        padding: 1% 4% 1% 4%;
+        background-color: #fbc02d;
+    }
+    .main-nav {
+        color: #fbc02d;
+        padding: 4% 2.5% 4% 4%;
+        width: 100%;
+    }
+    .mainav-title {
+        float: left;
+        font-size: 40px;
+        line-height: 0px;
+    }
+    .mainav-links li a {
+        text-decoration: none;
+        color: white;
+        padding: 0 5px;
+        font-size: 15px;
+        font-weight: bold;
     }
     /* body styling for small screens */
     .news,
@@ -236,8 +291,13 @@ header {
 @media (max-width:767px) {
     header {
         background: rgb(0, 0, 0, 0.8);
-        background: url('./images/pexels-smallest.jpg') no-repeat;
-        height: 768px;
+    }
+    .img-slider {
+        background: url('./images/pexels-pixabay-209841.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        transition: ease-in 1.0s;
     }
     .hamburger {
         display: block;
