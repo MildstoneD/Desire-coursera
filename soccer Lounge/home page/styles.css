@@ -223,47 +223,50 @@ header {
         background: url('./images/pexels-small.jpg') no-repeat;
         background-size: cover;
         background-position: center;
-        height: 50vh;
+        height: 768px;
         transition: ease-in 1.0s;
     }
     /* styling responsive navbar button */
     .cont-btn {
         position: relative;
-        bottom: 25px;
+        bottom: 40px;
     }
     .hamburger {
         display: block;
         float: right;
-        padding: 10px;
+        padding: 5px;
         margin: 0 20px;
         background-color: transparent;
         color: #fbc02d;
         border: 3px solid #fbc02d;
         border-radius: 5px;
         text-align: center;
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
     }
     .hamburger:hover {
         background-color: #fbc02d;
         color: black;
+    }
+    .hamburger .ham {
+        font-size: 50px;
     }
     /* styling the main and info navbar for small screens */
     .mainav-links {
         display: none;
     }
     .infonav {
-        padding: 1% 4% 1% 4%;
+        padding: 3% 6% 3% 6%;
         background-color: #fbc02d;
     }
     .main-nav {
         color: #fbc02d;
-        padding: 4% 2.5% 4% 4%;
+        padding: 8% 5% 8% 8%;
         width: 100%;
     }
     .mainav-title {
         float: left;
-        font-size: 40px;
+        font-size: 60px;
         line-height: 0px;
     }
     .mainav-links li a {
