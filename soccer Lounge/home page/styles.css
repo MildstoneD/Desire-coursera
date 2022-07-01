@@ -8,8 +8,8 @@
 /* stylng the header container */
 
 header {
-    background-color: rgba(0, 0, 0);
-    background: url('./images/pexels-pixabay-209841.jpg');
+    background-image: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(117, 117, 90));
+    /* background: url('./images/pexels-pixabay-209841.jpg'); */
 }
 
 .img-slider {
@@ -180,11 +180,11 @@ header {
 
 @media (min-width:992px) and (max-width: 1199px) {
     header {
-        background-color: rgba(0, 0, 0);
+        background-image: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(117, 117, 90));
     }
-    .back-img {
+    /* .back-img {
         background: url('./images/pexels-1200.jpg');
-    }
+    } */
     .img-slider {
         background: url('./images/pexels-1200.jpg') no-repeat;
         background-size: cover;
@@ -222,11 +222,11 @@ header {
 
 @media (min-width:768px) and (max-width: 991px) {
     header {
-        background-color: rgba(0, 0, 0);
+        background-image: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(117, 117, 90));
     }
-    .back-img {
+    /* .back-img {
         background: url('./images/pexels-1200.jpg');
-    }
+    } */
     .img-slider {
         background: url('./images/pexels-small.jpg') no-repeat;
         background-size: cover;
@@ -313,11 +313,11 @@ header {
 
 @media (max-width:767px) {
     header {
-        background-color: rgba(0, 0, 0);
+        background-image: linear-gradient(to bottom right, rgb(36, 36, 36), rgb(117, 117, 90));
     }
-    .back-img {
+    /* .back-img {
         background: url('./images/pexels-1200.jpg');
-    }
+    } */
     .img-slider {
         background: url('./images/pexels-smallest.jpg') no-repeat;
         background-size: cover;
