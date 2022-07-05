@@ -6,7 +6,7 @@ var images = ['./images/pexels-pixabay-209841.jpg',
 var slideTimer = 15000;
 
 function changePicture() {
-    var img = document.getElementById('image-background').style.background =
+    document.getElementById('image-background').style.background =
         'url(' + images[i] + ')';
 
     if (i < images.length - 1) {
@@ -19,3 +19,14 @@ function changePicture() {
 }
 
 window.onload = changePicture;
+
+var hamburg = document.getElementById('ham');
+var mainNav = document.getElementById('links-nav');
+
+hamburg.addEventListener('click', function() {
+    if (mainNav.style.display === 'none') {
+        mainNav.style.display = 'block';
+    } else {
+        mainNav.style.display = 'none';
+    }
+});
