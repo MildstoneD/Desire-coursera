@@ -125,6 +125,7 @@ header {
     height: 70px;
     width: 70px;
     border: 0.5px solid #fbc02d;
+    border-radius: 5px;
 }
 
 .hamburger:hover {
@@ -305,11 +306,8 @@ header {
 
 @media (max-width:767px) {
     header {
-        background-image: linear-gradient(to right, rgb(27, 27, 27), rgb(117, 110, 69), rgb(27, 27, 27));
+        background: url('./images/pexels-1200.jpg') no-repeat;
     }
-    /* .back-img {
-        background: url('./images/pexels-1200.jpg');
-    } */
     .img-slider {
         background: url('./images/pexels-smallest.jpg') no-repeat;
         background-size: cover;
@@ -317,11 +315,34 @@ header {
         height: 50vh;
         transition: ease-in 1.0s;
     }
-    .hamburger {
+    /* styling responsive navbar button */
+    .cont-btn {
         display: block;
     }
+    /* styling the main nav */
     .mainav-links {
         display: none;
+    }
+    .main-nav {
+        color: #fbc02d;
+        padding: 8% 5% 8% 6%;
+        width: 100%;
+        background-image: linear-gradient(to right, rgb(27, 27, 27, 0.6), rgb(99, 96, 81, 0.6), rgb(27, 27, 27, 0.6));
+    }
+    .mainav-title {
+        float: left;
+        font-size: 60px;
+        line-height: 0px;
+    }
+    .mainav-links li a {
+        text-decoration: none;
+        color: white;
+        padding: 0 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .mainav-links li {
+        display: block;
     }
     .news,
     .match-report {
