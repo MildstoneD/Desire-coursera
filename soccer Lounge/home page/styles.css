@@ -271,7 +271,7 @@ header {
         color: #fbc02d;
         padding: 8% 5% 8% 6%;
         width: 100%;
-        background-image: linear-gradient(to right, rgb(27, 27, 27, 0.4), rgb(99, 96, 81, 0.4), rgb(27, 27, 27, 0.4));
+        background-image: linear-gradient(to right, rgb(27, 27, 27, 0.6), rgb(99, 96, 81, 0.6), rgb(27, 27, 27, 0.6));
     }
     .mainav-title {
         float: left;
