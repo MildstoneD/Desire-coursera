@@ -8,8 +8,7 @@
 /* stylng the header container */
 
 header {
-    background-image: linear-gradient(to right, rgb(27, 27, 27), rgb(117, 110, 69), rgb(27, 27, 27));
-    /* background: url('./images/pexels-pixabay-209841.jpg'); */
+    background: url('./images/pexels-pixabay-209841.jpg') no-repeat;
 }
 
 .img-slider {
@@ -70,6 +69,7 @@ header {
     color: #fbc02d;
     padding: 20px 25px 20px 40px;
     width: 100%;
+    background-image: linear-gradient(to right, rgb(27, 27, 27, 0.4), rgb(99, 96, 81, 0.4), rgb(27, 27, 27, 0.4));
 }
 
 .mainav-title {
@@ -109,22 +109,31 @@ header {
 
 /* styling hamburger */
 
-.hamburger {
-    float: right;
-    padding: 10px;
-    margin: 0 20px;
-    background-color: transparent;
-    color: #fbc02d;
-    border: 1px solid #fbc02d;
-    border-radius: 5px;
-    text-align: center;
+.cont-btn {
     position: relative;
-    top: 0;
+    bottom: 40px;
     display: none;
 }
 
+.hamburger {
+    float: right;
+    padding: 5px;
+    margin: 0 20px;
+    background-color: transparent;
+    color: #fbc02d;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    border: 0.5px solid #fbc02d;
+}
+
+.hamburger:hover {
+    background-color: #fbc02d;
+    color: black;
+}
+
 .hamburger .ham {
-    font-size: 25px;
+    font-size: 50px;
 }
 
 
@@ -180,7 +189,7 @@ header {
 
 @media (min-width:992px) and (max-width: 1199px) {
     header {
-        background-image: linear-gradient(to right, rgb(27, 27, 27), rgb(117, 110, 69), rgb(27, 27, 27));
+        background: url('./images/pexels-1200.jpg') no-repeat;
     }
     /* .back-img {
         background: url('./images/pexels-1200.jpg');
@@ -202,6 +211,7 @@ header {
         color: #fbc02d;
         padding: 10px 25px 20px 30px;
         width: 100%;
+        background-image: linear-gradient(to right, rgb(27, 27, 27, 0.4), rgb(99, 96, 81, 0.4), rgb(27, 27, 27, 0.4));
     }
     .mainav-title {
         float: left;
@@ -222,11 +232,8 @@ header {
 
 @media (min-width:768px) and (max-width: 991px) {
     header {
-        background-image: linear-gradient(to right, rgb(27, 27, 27), rgb(117, 110, 69), rgb(27, 27, 27));
+        background: url('./images/pexels-1200.jpg') no-repeat;
     }
-    /* .back-img {
-        background: url('./images/pexels-1200.jpg');
-    } */
     .img-slider {
         background: url('./images/pexels-small.jpg') no-repeat;
         background-size: cover;
@@ -236,26 +243,7 @@ header {
     }
     /* styling responsive navbar button */
     .cont-btn {
-        position: relative;
-        bottom: 40px;
-    }
-    .hamburger {
         display: block;
-        float: right;
-        padding: 5px;
-        margin: 0 20px;
-        background-color: transparent;
-        color: #fbc02d;
-        text-align: center;
-        height: 70px;
-        width: 70px;
-    }
-    .hamburger:hover {
-        background-color: #fbc02d;
-        color: black;
-    }
-    .hamburger .ham {
-        font-size: 50px;
     }
     /* styling the main and info navbar for small screens */
     /* styling the info navbar */
@@ -283,6 +271,7 @@ header {
         color: #fbc02d;
         padding: 8% 5% 8% 6%;
         width: 100%;
+        background-image: linear-gradient(to right, rgb(27, 27, 27, 0.6), rgb(99, 96, 81, 0.6), rgb(27, 27, 27, 0.6));
     }
     .mainav-title {
         float: left;
@@ -295,6 +284,9 @@ header {
         padding: 0 5px;
         font-size: 15px;
         font-weight: bold;
+    }
+    .mainav-links li {
+        display: block;
     }
     /* body styling for small screens */
     .news,
