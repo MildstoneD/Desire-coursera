@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* styling the navigation bar */
+
+
+/* starting with the info navbar */
+
+.infonav {
+    padding: .5% 3% .5% 3%;
+    background-color: #fbc02d;
+}
+
+.infonav p {
+    float: left;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+.infonav .fa-envelope {
+    padding: 0 5px 0 0;
+}
+
+.infonav-links li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.infonav-links li a .signup {
+    padding-right: 15px;
+}
+
+.infonav-links .icons {
+    padding-right: 10px;
+}
+
+.infonav-links .twitter {
+    padding-right: 30px;
+}
+
+
+/* style of info nav ends */
+
+
+/* style of main nav begins */
+
+.main-nav {
+    color: #fbc02d;
+    padding: 20px 25px 20px 40px;
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    /* background-image: linear-gradient(to right, rgb(27, 27, 27, 0.4), rgb(99, 96, 81, 0.4), rgb(27, 27, 27, 0.4)); */
+}
+
+.mainav-title {
+    float: left;
+    font-size: 30px;
+    line-height: 25px;
+    color: #fbc02d;
+}
+
+.mainav-links,
+.infonav-links {
+    list-style-type: none;
+    text-align: right;
+}
+
+.mainav-links li,
+.infonav-links li {
+    display: inline;
+}
+
+.mainav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+.mainav-links li a:hover {
+    background-color: #fbc02d;
+    color: rgb(20, 20, 20);
+    border-radius: 5px;
+    padding: 7px 20px;
+}
+
+
+/* navbar styling ends */
+
+
+/* styling hamburger */
+
+.cont-btn {
+    position: relative;
+    bottom: 40px;
+    display: none;
+}
+
+.hamburger {
+    float: right;
+    padding: 5px;
+    margin: 0 20px;
+    background-color: transparent;
+    color: #fbc02d;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    border: 0.5px solid #fbc02d;
+    border-radius: 5px;
+}
+
+.hamburger:hover {
+    background-color: #fbc02d;
+    color: black;
+}
+
+.hamburger .ham {
+    font-size: 50px;
+}

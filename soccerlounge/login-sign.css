@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./images/football.jpg') no-repeat;
+    background-size: cover;
+    background-color: rgb(58, 57, 57);
+}
+
+.cont-form {
+    background-color: rgb(241, 241, 241, 0.9);
+    width: 500px;
+    height: 550px;
+    margin: 3% 0 0 30%;
+    padding: 15px 0 0 40px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 5px 0.5px rgb(102, 102, 102);
+}
+
+input {
+    width: 400px;
+    height: 35px;
+    margin: 5px 0;
+    border: 0.5px solid rgb(134, 134, 134, 0.6);
+    border-radius: 5px;
+    padding-left: 5px;
+    box-shadow: 0.5px 0.5px 1px 0.5px rgb(102, 102, 102, 0.2);
+}
+
+input:hover {
+    border: 1px solid #fbc02d;
+}
+
+input:focus {
+    outline: #fbc02d;
+}
+
+.btn {
+    border-radius: 5px;
+    color: white;
+    background-color: #000000;
+    border: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #fbc02d;
+    color: #000000;
+}
+
+#checkbox {
+    height: 10px;
+    width: 10px;
+}
+
+label {
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+
+/* login styling */
+
+.cont-login {
+    background-color: rgb(241, 241, 241, 0.9);
+    width: 420px;
+    height: 300px;
+    margin: 10% 0 0 33%;
+    padding: 35px 0 0 30px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 5px 0.5px rgb(102, 102, 102);
+}
+
+form .login {
+    width: 350px;
+}
