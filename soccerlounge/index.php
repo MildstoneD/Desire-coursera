@@ -14,7 +14,7 @@
         <!-- start of info nav and main nav -->
         <section>
             <nav class="infonav">
-                <p><i class="fa fa-envelope" aria-hidden="true"></i>soccerlounge@gmail.com</p>
+            <a href="#"><p><i class="fa fa-envelope" aria-hidden="true"></i>soccerlounge@gmail.com</p></a> 
 
                 <ul class="infonav-links">
                     <li>
@@ -51,11 +51,11 @@
 
                 <!-- for the navigation links -->
                 <ul class="mainav-links" id="links-nav">
-                    <li><a href="#">Latest Transfer News</a></li>
-                    <li><a href="#">Fixtures</a></li>
-                    <li><a href="#">Match Reports</a></li>
-                    <li><a href="#">League standings</a></li>
+                    <li><a href="#">Leagues</a></li>
+                    <li><a href="#">Match Odds</a></li>
+                    <li><a href="#">Soccer News</a></li>
                     <li><a href="#">SL Games</a></li>
+                    <li><a href="#">Community</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
             </nav>
