@@ -80,8 +80,32 @@
                     <img src="./images/thomas-serer-r-xKieMqL34-unsplash.jpg" alt="">
                 </a>
             </div>
-        </div>
+        
+        <div class="container">
+            <div class="table">
+                <a href="#">
+                     <h4> Match Fixtures </h4>
+                     <img src="">
+                </a>
+            </div>
 
+            <div class="trivia">
+                <div class="tab-content">
+                    <a href="#">
+                        <h4> Sports Trivia </h4>
+                        <img scr="">
+                    </a>
+            </div>                        
+
+        <div class="container">
+            <div class="tab">
+                <button class="tablinks"
+            onclick="openTab(event, 'Recent News')"> Recent News </button>
+                <button class="tablinks"
+            onclick="openTab(event, 'Match Reports')"> Match Reports </button>
+                <button class="tablinks"
+            onclick="openTab(event, 'live-Fixtures')">Today's Fixtures </button>
+                      
     </main>
     <script src="script.js"></script>
 </body>
