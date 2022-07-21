@@ -97,14 +97,31 @@
                     </a>
             </div>                        
 
-        <div class="container">
+        <div class="tab-container">
             <div class="tab">
                 <button class="tablinks"
-            onclick="openTab(event, 'Recent News')"> Recent News </button>
+            onclick="openTab(event, 'Recent-News')"> Recent News </button>
                 <button class="tablinks"
-            onclick="openTab(event, 'Match Reports')"> Match Reports </button>
+            onclick="openTab(event, 'Match-Reports')"> Match Reports </button>
                 <button class="tablinks"
             onclick="openTab(event, 'live-Fixtures')">Today's Fixtures </button>
+            </div> 
+
+
+            <div id='Recent-News' class='tabcontent'>
+                <h3> Recent sporting news from around the world </h3>
+            </div>    
+
+            <div id='Match-Reports' class= 'tabcontent'>
+                <h3> Match results and reports </h3>
+            </div>
+
+            <div id='live-fixtures' class='tabcontent'>
+                <h3> Coming fixtures and match overview </h3>
+
+
+
+
                       
     </main>
     <script src="script.js"></script>

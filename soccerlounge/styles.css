@@ -159,6 +159,7 @@
     margin: 20px 5%;
     box-shadow: 1px 1px 8px 1px rgb(145, 144, 144);
     padding: 10px;
+
 }
 
 .news:hover,
@@ -185,6 +186,45 @@
     height: 500px;
 }
 
+/* css styling for content tab container */
+.tab-container {
+    border: none;
+}
+
+/* css styling for content tab */
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #fbc02d;
+    background-color: inherit;
+    width: 1050px;
+    height: 150x;
+    margin-bottom: 2%;
+}
+
+/* style tab content buttons */
+.tablinks {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 15px;
+    transition: 0.5s;
+}
+
+/* tab content bg colour on hover */
+.tablinks:hover {
+    background-color: #fbc02d;
+}
+
+/* styling content tab */
+.tabcontent{
+    display: none;
+    padding: 20px;
+    border: 1px solid #000;
+
+}
 
 /* media queries for responsive css */
 
