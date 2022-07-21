@@ -5,10 +5,15 @@ var images = [
     './images/pexels-tom-fisk.jpg'
 ];
 var slideTimer = 15000;
+var backimg = document.getElementById('image-background');
 
 function changePicture() {
-    document.getElementById('image-background').style.background =
-        'url(' + images[i] + ')';
+
+    backimg.style.background = 'url(' + images[i] + ')';
+    backimg.style.width = '100%';
+    backimg.style.backgroundSize = 'cover';
+    backimg.style.backgroundRepeat = 'no-repeat';
+    backimg.style.backgroundPosition = 'center';
 
     if (i < images.length - 1) {
         i++;
