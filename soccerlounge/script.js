@@ -36,3 +36,25 @@ hamburg.addEventListener('click', function() {
         mainNav.style.display = 'none';
     }
 });
+
+// javascript for tab and tabcontent
+function openTab (evt, tabName) {
+var i, tabcontent, tablinks;
+
+// hide tab
+tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = 'none'
+}
+//exit active tab
+tablinks = document.style.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace("active", "");
+}
+
+//show current tab
+document.getElementById(tabName).style.display = 'block'
+    evt.currentTarget.tabName += "active";
+}
+
+document.getElementById
