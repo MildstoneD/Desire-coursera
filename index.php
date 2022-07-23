@@ -53,7 +53,7 @@
     </header>
     <main>
         <div class="container">
-            <div class="news">
+            <div class="news" id='tfnews'>
                 <a href="#">
                     <h4> Latest Transfer News</h4>
                     <img src="./images/jc-gellidon-HT4y0uWVtn8-unsplash.jpg" alt="">
@@ -65,7 +65,7 @@
                     <img src="./images/thomas-serer-r-xKieMqL34-unsplash.jpg" alt="">
                 </a>
             </div>
-            <div class="table">
+            <div class="table" id='fix'>
                 <a href="#">
                      <h4> Match Fixtures </h4>
                      <img src="">
