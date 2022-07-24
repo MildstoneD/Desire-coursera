@@ -99,6 +99,85 @@
             <h3> Coming fixtures and match overview</h3>
             </div>
         </div>
+        
+<!-- Container for the image gallery -->
+<div class="image-container">
+    <h3> Pictures from some of the best sporting moments this week </h3>
+
+<!-- Full-width images with number text -->
+    <div class="Slides">
+        <div class="numbertext">1 / 6</div>
+           <img src="C:\xampp\htdocs\Desire-coursera\soccerlounge\images\connor-coyne-OgqWLzWRSaI-unsplash.jpg" style="width:100%">
+    <!-- Add links for the images-->
+    </div>
+
+    <div class="Slides">
+        <div class="numbertext">2 / 6</div>
+           <img src="" style="width:100%">
+    </div>
+
+   <div class="Slides">
+        <div class="numbertext">3 / 6</div>
+           <img src="" style="width:100%">
+    </div>
+
+    <div class="Slides">
+        <div class="numbertext">4 / 6</div>
+           <img src="" style="width:100%">
+    </div>
+
+     <div class="Slides">
+        <div class="numbertext">5 / 6</div>
+           <img src="" style="width:100%">
+    </div>
+
+     <div class="Slides">
+        <div class="numbertext">6 / 6</div>
+            <img src="" style="width:100%">
+    </div>
+
+<!-- Next and previous buttons copied, please confirm -->
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!-- Image text -->
+<div class="caption-container">
+  <p id="caption"></p>
+</div>
+
+<!-- Thumbnail images for !Slides -->
+<div class="row">
+  <div class="column">
+    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(1)" alt="slider name">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(2)" alt="slider name2">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(3)" alt="slider name3">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(4)" alt="slider name4">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(5)" alt="slider name5">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(6)" alt="slider name6">
+  </div>
+</div>
+</div>
+
+                    
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
     </main>
     <script src="script.js"></script>
 </body>
