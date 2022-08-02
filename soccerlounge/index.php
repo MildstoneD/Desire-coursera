@@ -55,25 +55,25 @@
         <div class="container">
             <div class="news" id='tfnews'>
                 <a href="#">
-                    <h4> Latest Transfer News</h4>
+                    <h2> Latest Transfer News</h2>
                     <img src="./images/jc-gellidon-HT4y0uWVtn8-unsplash.jpg" alt="">
                 </a>
             </div>
             <div class="match-report">
                 <a href="#">
-                    <h4> Match Reports</h4>
+                    <h2> Match Reports</h2>
                     <img src="./images/thomas-serer-r-xKieMqL34-unsplash.jpg" alt="">
                 </a>
             </div>
             <div class="table" id='fix'>
                 <a href="#">
-                     <h4> Match Fixtures </h4>
+                     <h2> Match Fixtures </h2>
                      <img src="">
                 </a>
             </div>
             <div class="trivia">
                     <a href="#">
-                        <h4> Sports Trivia </h4>
+                        <h2> Sports Trivia </h2>
                         <img scr="">
                     </a>
                 </div>
@@ -81,9 +81,9 @@
 
         <div class='container'>
             <div class="tab">
-            <button class="tablinks" onclick="openCity(event,'Recent-News')" id='defaultTab'>Recent News</button>
-            <button class="tablinks" onclick="openCity(event, 'Match-Reports')">Match Reports</button>
-            <button class="tablinks" onclick="openCity(event, 'live-Fixtures')">Today's Fixtures</button>
+            <button class="tablinks" onclick="tabCont(event,'Recent-News')" id='defaultTab'>Recent News</button>
+            <button class="tablinks" onclick="tabCont(event, 'Match-Reports')">Match Reports</button>
+            <button class="tablinks" onclick="tabCont(event, 'live-Fixtures')">Today's Fixtures</button>
             </div>
 
             <!-- Tab content -->
@@ -167,18 +167,50 @@
     <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(6)" alt="slider name6">
   </div>
 </div>
-</div>
 
+<div>
+<!-- Container for polls-->
+<h2 style = "center"> Vote for your player of the match week </h2>
+    <h3> Player name </h3>
+    
+<form> 
+    select: <input type ="checkbox" name ="vote"
+    value ="0"
+    oncick="getVote(this.value)">
+</form>
+
+<h3> Player name2 </h3>
+<form> 
+    select: <input type ="checkbox" name ="vote"
+    value ="0"
+    oncick="getVote(this.value)">
+</form>
+
+<h3> Player name3 </h3>
+<form> 
+    select: <input type ="checkbox" name ="vote"
+    value ="0"
+    oncick="getVote(this.value)">
+</form>
+
+<h3> Player name4 </h3>
+<form> 
+    select: <input type ="checkbox" name ="vote"
+    value ="0"
+    oncick="getVote(this.value)">
+</form>
+
+<h3> Player name5 </h3>
+
+<form> 
+    select: <input type ="checkbox" name ="vote"
+    value ="0"
+    oncick="getVote(this.value)">
+</form>
+</div>
                     
   </main>
   <script src="script.js"></script>
 </body>
 
-</html>
-
-
-
-    </main>
-    <script src="script.js"></script>
-</body>
 </html>
