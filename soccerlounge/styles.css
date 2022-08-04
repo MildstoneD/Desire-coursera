@@ -211,7 +211,7 @@ body {
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(102, 102, 102, 0.7);
     background-color: inherit;
     width: 89%;
     height: 100%;
@@ -235,7 +235,7 @@ body {
 /* Change background color of buttons on hover */
 
 .tab button:hover {
-    background-color: #ddd;
+    background-color: rgb(102, 102, 102, 0.7);
 }
 
 
@@ -251,7 +251,7 @@ body {
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(102, 102, 102, 0.7);
     height: 300px;
     width: 89%;
     margin: 0 0 3% 5%;
@@ -274,29 +274,46 @@ body {
     }
 }
 
+
 /* Css for football-image slideshow */
-* {
+
+
+/* * {
     box-sizing: border-box;
-  }
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .image-container {
+} */
+
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.image-container {
     position: relative;
-  }
-  
-  /* Hide the images by default */
-  .Slides {
+    width: 89%;
+    margin: 0 0 0 5%;
+}
+
+
+/* Hide the images by default */
+
+.Slides {
     display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
+}
+
+.Slides img {
+    height: 500px;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
     cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 40%;
@@ -305,65 +322,144 @@ body {
     margin-top: -50px;
     color: #fbc02d;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
+}
+
+
+/* Container for image text */
+
+.caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: rgb(0, 0, 0);
     padding: 2px 16px;
     color: white;
-  }
-  
-  .row:after {
+}
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
+}
+
+
+/* Six columns side by side */
+
+.column {
     float: left;
     width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
+}
+
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
     opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
+}
+
+.active,
+.demo:hover {
     opacity: 1;
-  }
+}
 
 
+/* styling thne container fot polls */
 
+.polls-capt {
+    text-align: center;
+    margin-top: 2%;
+    padding: 2% 0 0 0;
+}
+
+.poll-form {
+    padding: 3% 4%;
+    float: left;
+    background-color: rgb(230, 230, 230, 0.3);
+    width: 20%;
+    margin: 0 0 2% 0;
+}
+
+.poll-form>h3 {
+    padding: 10px 0;
+}
+
+.poll-form>img {
+    padding: 0 0 5px 0;
+}
+
+#poll-cont {
+    margin: 0 5% 2% 5%;
+    background-color: rgb(230, 230, 230, 0.3);
+    width: 89%;
+}
+
+
+/* styling the footer */
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: rgb(0, 0, 0, 0.9);
+    color: whitesmoke;
+    border-top: 0;
+    clear: both;
+}
+
+.visible-xs {
+    display: none;
+}
+
+.row section {
+    float: left;
+    width: 30%;
+}
+
+.row>.section-1 {
+    margin: 0 0 0 5%;
+}
+
+.row section span {
+    font-size: large;
+}
+
+#address p {
+    color: #fbc02d;
+}
+
+.text-center {
+    text-align: center;
+    margin: 1%;
+}
 
 
 /* media queries for responsive css */
