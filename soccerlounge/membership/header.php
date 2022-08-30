@@ -38,7 +38,7 @@
         </section>
         <section class="back-img" id="image-background">
             <nav class="main-nav">
-            <a href="index.php" class='home'><h1 class="mainav-title">Soccer Lounge</h1></a>
+            <a href="../index.php" class='home'><h1 class="mainav-title">Soccer Lounge</h1></a>
 
 
                 <!-- code for navbar button toggle -->
@@ -51,7 +51,7 @@
 
                 <!-- for the navigation links -->
                 <ul class="mainav-links" id="links-nav">
-                    <li><a href="leagues.php">Leagues</a></li>
+                    <li><a href="#">Leagues</a></li>
                     <li><a href="#">Match Odds</a></li>
                     <li><a href="#">Soccer News</a></li>
                     <li><a href="#">SL Games</a></li>

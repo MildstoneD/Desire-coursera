@@ -26,6 +26,7 @@ function changePicture() {
 
 window.onload = changePicture;
 
+// script for responsive nav bar toggle
 var hamburg = document.getElementById('ham');
 var mainNav = document.getElementById('links-nav');
 
@@ -37,6 +38,8 @@ hamburg.addEventListener('click', function() {
     }
 });
 
+
+// script for page tab
 function openCity(evt, tabName) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -65,30 +68,30 @@ showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+    showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+    showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
-  var i=0; 
-  var slides = document.getElementsByClassName("Slides"); 
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  
+    var i = 0;
+    var slides = document.getElementsByClassName("Slides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
 
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
 }

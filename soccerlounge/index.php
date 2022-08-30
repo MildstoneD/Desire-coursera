@@ -24,8 +24,8 @@
                     <li>
                         <a href="#" class="icons twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </li>
-                    <li><a href="login.php" class="login">Login /</a></li>
-                    <li><a href="add-new-member.php" class="signup">Sign up</a></li>
+                    <li><a href="./membership/login.php" class="login">Login /</a></li>
+                    <li><a href="./membership/signup.php" class="signup">Sign up</a></li>
                 </ul>
             </nav>
         </section>
@@ -41,7 +41,7 @@
                 <!-- end -->
                 <!-- for the navigation links -->
                 <ul class="mainav-links" id="links-nav">
-                    <li><a href="#">Leagues</a></li>
+                    <li><a href="leagues.php">Leagues</a></li>
                     <li><a href="#">Match Odds</a></li>
                     <li><a href="#">Soccer News</a></li>
                     <li><a href="#">SL Games</a></li>
@@ -164,7 +164,8 @@
 <h3> Player name </h3>
 <img src="" alt="player1">
     <form> 
-        select: <input type ="checkbox" name ="vote"
+        select: 
+        <label for="polls">Select</label><input type ="checkbox" name ="vote"
         value ="0"
         oncick="getVote(this.value)">
     </form>
@@ -240,7 +241,6 @@
                 &copy; Copyright David Chu's China Bistro 2022
             </div>
         </div>
-<!--   don't mind the dummy texts in the footer     -->
     </footer>
   <script src="script.js"></script>
 </body>
